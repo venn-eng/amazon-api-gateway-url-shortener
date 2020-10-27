@@ -5,3 +5,35 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+nav {
+    background-color: #10171d !important;
+    box-shadow: 0px 3px 3px #0000006e;
+}
+
+.column .title {
+    font-weight: 300 !important;
+}
+
+.navbar-item h1 {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.venn-logo-2 {
+    fill: rgb(0, 154, 166);
+}
+.venn-logo-3 {
+    fill: rgb(125, 206, 202);
+}
+.venn-logo-4 {
+    fill: rgb(206, 242, 237);
+}
+.venn-logo-5, .venn-logo-8 {
+    fill: rgb(255, 255, 255);
+}
+.venn-logo-7 {
+    fill: rgb(0, 166, 184)
+}
