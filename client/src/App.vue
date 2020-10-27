@@ -70,7 +70,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
     </section>
     <section class="section">
       <div class="container">
-        <div style="text-align: center;">
+        <div v-if="!authorized" style="text-align: center;">
           <img src="/simba.png" style="border-radius:100%;">
         </div>
         <div v-if="authorized">
